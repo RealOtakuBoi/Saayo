@@ -98,7 +98,7 @@ width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 40px;
   margin-top: 20px;
   width: 100%;
 }
@@ -121,6 +121,7 @@ width: 100%;
 
 .product-name{
   font-weight: 500;
+  overflow-wrap: break-word;
 }
 .product-price{
   font-weight: 800;
