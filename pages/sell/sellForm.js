@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './sellForm.module.css'
 
 const sellForm = () => {
   return (
