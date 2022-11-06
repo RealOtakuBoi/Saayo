@@ -514,7 +514,7 @@ padding: 30px 65px;
   width: 200px;
    transform: scale(1, 1);
   transition: transform 0.5s ease;
-  margin-right: 0.3rem;
+  /* margin-right: 0.3rem; */
 }
 .buttons .add-to-cart:hover{
   background-color: #007fff;
@@ -533,7 +533,7 @@ padding: 30px 65px;
   cursor: pointer;
    transform: scale(1, 1);
   transition: transform 0.5s ease;
-  margin-left: 0.3rem;
+  /* margin-left: 0.3rem; */
 }
 .buttons .buy-now:hover{
   background-color: #007fff;
