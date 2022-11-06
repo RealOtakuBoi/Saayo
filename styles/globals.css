@@ -433,8 +433,8 @@ padding: 30px 65px;
   border-radius: 15px;
    background-color: #ebebeb;
 
-  width: 400px;
-  height: 400px;
+  width: 18rem;
+  height: 28rem;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
@@ -689,8 +689,8 @@ margin-top: 160px;
     flex-wrap: wrap;
     }
   .product-detail-container .product-detail-image{
-    width: 350px;
-    height: 350px;
+    width: 18rem;
+    height: 28rem;
   }
   .cart-container{
     width: 415px;
