@@ -109,6 +109,7 @@ width: 100%;
  color: #324d67;
 
 }
+
 .product-card:hover{
   transform: scale(1.1,1.1)
 }
@@ -121,7 +122,6 @@ width: 100%;
 
 .product-name{
   font-weight: 500;
-  overflow-wrap: break-word;
 }
 .product-price{
   font-weight: 800;
