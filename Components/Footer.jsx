@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='footer-container'>
       <p>2022 Saayo All Rights Reserved</p>
       <p className='icons'>
-        <Link>
-        <AiFillInstagram href='https://www.instagram.com/saayo_store/?hl=en' />
+        <Link href='https://www.instagram.com/saayo_store/?hl=en' >
+        <AiFillInstagram />
         </Link>
         <AiOutlineTwitter />
       </p>
