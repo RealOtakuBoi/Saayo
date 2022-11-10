@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai'
+import { AiFillInstagram, AiOutlineTwitter, AiOutlineWhatsApp } from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
         <AiFillInstagram />
         <AiOutlineTwitter />
       </p>
-      <p>+911234567890</p>
+      <p><AiOutlineWhatsApp/>+919870405708</p>
     </div>
   )
 }
