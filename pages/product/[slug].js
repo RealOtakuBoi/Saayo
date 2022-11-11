@@ -60,7 +60,7 @@ const ProductDeatils = ({ product , products}) => {
         </div>
         <div className="buttons">
           <button type="button" className="add-to-cart" onClick={() => onAdd(product , qty)} >Add to Cart</button>
-          <a href={`sms://+919870405708;?&body=I%20Want%20Buy%20${name}%20To%20Priced%20at${price}`}>
+          <a href={`sms://+919870405708;?&body=I%20Want%20Buy%20${name}%20To%20Priced%20at%20${price}`}>
           <button type="button" className="buy-now">Buy Now</button>
           </a>
         </div>

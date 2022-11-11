@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiOutlineShopping } from 'react-icons/ai'
-
+import { AiOutlineShopping, AiOutlineWhatsApp } from 'react-icons/ai'
 import  Cart  from './Cart';
 import { useStateContext } from '../Context/StateContext';
 
@@ -16,6 +15,10 @@ const Navbar = () => {
 
       <p className="logo">
         <Link href={`/sell/sellForm`}>Sell</Link>
+      </p>
+
+      <p className="logo">
+      <Link href={`https://wa.me/+919870405708?text=Hello%20I%20want%20to%20Contact%20you%20About%20some%20queries`}>Contact</Link>
       </p>
 
       
