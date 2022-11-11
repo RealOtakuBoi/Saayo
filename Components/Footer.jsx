@@ -12,7 +12,7 @@ const Footer = () => {
         </Link>
         <AiOutlineTwitter />
       </p>
-      <p><AiOutlineWhatsApp/>+919870405708</p>
+      <p><AiOutlineWhatsApp/><a href='sms://+919870405708;?&body=Want%20To%20Contact'>+919870405708</a></p>
     </div>
   )
 }
