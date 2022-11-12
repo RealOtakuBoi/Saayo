@@ -740,6 +740,30 @@ margin-top: 160px;
   }
 
 
+  .bottom-navbar {
+    background: whitesmoke;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: none;
+  }
+
+  .bottom-navbar a  {
+    color: gray;
+    font-size: 2.5rem;
+    padding: 2rem;
+  }
+
+  .bottom-navbar a:hover {
+    background: #134d88;
+  }
+
+
+
+
 
 @media screen and (max-width:800px) {
 
@@ -752,6 +776,16 @@ margin-top: 160px;
     margin-bottom: 15px;
     width: 100%;
   }
+
+
+  .bottom-navbar {
+    display: inline-block;
+  }
+
+  .navbar-container{
+    display: none;
+  }
+
 
 
 
