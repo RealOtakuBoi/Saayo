@@ -753,12 +753,8 @@ margin-top: 160px;
 
   .bottom-navbar a  {
     color: gray;
-    font-size: 2.5rem;
-    padding: 2rem;
-  }
-
-  .bottom-navbar a:hover {
-    background: #134d88;
+    font-size: 1.7rem;
+    padding: 0.7rem;
   }
 
 
