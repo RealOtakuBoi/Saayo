@@ -131,7 +131,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background : url('https://images.unsplash.com/photo-1526243741027-444d633d7365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+  background : url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   filter: blur(10);
   border-radius: 15px;
   position: relative;
@@ -439,8 +439,8 @@ padding: 30px 65px;
   border-radius: 15px;
    background-color: #ebebeb;
 
-  width: 18rem;
-  height: 28rem;
+  width: 230px;
+  height: 385px;
   cursor: pointer;
   transition: .3s ease-in-out;
 }
@@ -500,7 +500,7 @@ padding: 30px 65px;
 }
 .product-detail-desc .buttons{
   display: flex;
-  gap: 30px;
+  gap: 0.8rem;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
@@ -514,7 +514,6 @@ padding: 30px 65px;
   width: 200px;
    transform: scale(1, 1);
   transition: transform 0.5s ease;
-  /* margin-right: 0.3rem; */
 }
 .buttons .add-to-cart:hover{
   background-color: #007fff;
@@ -533,7 +532,6 @@ padding: 30px 65px;
   cursor: pointer;
    transform: scale(1, 1);
   transition: transform 0.5s ease;
-  /* margin-left: 0.3rem; */
 }
 .buttons .buy-now:hover{
   background-color: #007fff;

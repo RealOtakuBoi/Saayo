@@ -13,7 +13,7 @@ const HeroBanner = ({ heroBanner }) => {
         <h1>{heroBanner.largeText1}</h1>
         <img src='' alt="Microeconomics Class 11" className='hero-banner-image' />
         <div>
-          <Link href={`/sell/sellForm`}>
+          <Link href={`https://wa.me/+917428780132?text=I%20want%20to%20request%20a%20book%20named%20%3A%20`}>
             <button type='button' >{heroBanner.buttonText}</button>
           </Link>
           <div className='desc'>
