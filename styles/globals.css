@@ -142,6 +142,7 @@ width: 100%;
 }
 .hero-banner-container .beats-solo{
   font-size: 20px;
+  color: #dcdcdc;
 }
 .hero-banner-container button{
    border-radius: 15px;
@@ -754,9 +755,13 @@ margin-top: 160px;
   .bottom-navbar a  {
     color: gray;
     font-size: 1.7rem;
-    padding: 0.7rem;
+    padding: 7px 0.7rem;
+    margin: 0 0.3rem;
   }
 
+  .bottom-navbar a:hover{
+    background: #0ae;
+  }
 
 
 
